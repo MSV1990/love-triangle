@@ -4,7 +4,6 @@
  */
 module.exports = function getLoveTrianglesCount(preferences = []) {
  let arr = [];
-  if(preferences.length < 3){return count;}
   preferences.unshift(0);
   for (let i = 1; i < preferences.length; i++) {
    
